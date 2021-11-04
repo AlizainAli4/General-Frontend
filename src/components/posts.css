@@ -1,0 +1,33 @@
+.event-card {
+    background-color: black;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-description {
+    -webkit-line-clamp: 3;
+    position: relative !important;
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    word-wrap: break-word;
+    height: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #aa00ff; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:#7c01b9; 
+  }
