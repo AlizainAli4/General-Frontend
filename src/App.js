@@ -1,4 +1,3 @@
-import { Router } from "@reach/router";
 import * as React from 'react';
 import Posts from './components/posts';
 import Post from './components/post';
